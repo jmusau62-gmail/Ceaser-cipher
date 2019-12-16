@@ -15,19 +15,22 @@ public class Ceaser {
                 if(c>'z'){
                     cipherText +=(char)(ch -(26-shift));
                 }
+                else{
+                    cipherText+= c;
+                }
                  }
-                 else if (Character.IsUpperCase(ch)) {
+                 else if (Character.IsUpperCase(ch)) { char c =(char)(ch+shift);
+                     if(c>'Z'){
+                         cipherText +=(char)(ch -(26-shift));
                  }
              }
-             else {
-             }
+             else{
+
+
+
              cipherText += ch;
-         }
 
          return cipherText;
      }
 
-    public static  void main(String[]args){
-
-}
-}
+    public static  void main(String[]args){};
