@@ -76,7 +76,7 @@ public class Ceaser {
 
 
     public static void main (String[] args){
-        String text = "This is some message";
+        String text = "hisissomemessage";
         String cipher = encrypt(text, 5);
         System.out.println(cipher);
         String decrypted= decrypt(cipher,5);
