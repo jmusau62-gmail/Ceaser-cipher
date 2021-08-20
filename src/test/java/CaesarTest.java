@@ -6,10 +6,10 @@ import static org.junit.Assert.*;
 public class CaesarTest {
 
     @Test
-    public void runCipher_returnStringPlainText_String(){
+    public void runCipher_returnStringPlainWord_String(){
         Ceasar testCipher = new Ceasar("josh",2);
-        testCipher.getPlainText();
-        assertEquals("josh", testCipher.getPlainText());
+        testCipher.getPlainWord();
+        assertEquals("josh", testCipher.getPlainWord());
     }
 
     @Test

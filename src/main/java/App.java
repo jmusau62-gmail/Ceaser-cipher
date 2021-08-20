@@ -5,8 +5,8 @@ public class App {
     public static void main(String[] args) {
         Console myConsole = System.console();
 
-        boolean programRunning = true;
-        while (programRunning) {
+        boolean runningProgram = true;
+        while (runningProgram) {
             System.out.println("Hey there, this is The Ceasar Cipher, you can choose to encrypt a word, decrypt a word or exit the program. Enter Encrypt, Decrypt or Exit");
             String navigationChoice = myConsole.readLine();
 
@@ -36,7 +36,7 @@ public class App {
 
                 System.out.println("Your decrypted word is " + decrypted);
             } else if (navigationChoice.equals("Exit")) {
-                programRunning = false;
+                runningProgram = false;
             } else {
                 System.out.println("Oops, your input is not readable, choose from Encrypt, Decrypt or Exit please");
             }
