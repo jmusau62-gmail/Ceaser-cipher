@@ -30,7 +30,7 @@ public class CaesarTest {
     @Test
     public void decrypt_returnDecryptedText_String(){
         Ceasar testCipher4 = new Ceasar("rko", 2);
-        testCipher4.decrypt("lquj", 2);
+        testCipher4.decrypt("rko", 2);
         assertEquals("josh", testCipher4.decrypt("lquj",2));
     }
 
