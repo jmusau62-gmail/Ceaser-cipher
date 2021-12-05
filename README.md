@@ -32,10 +32,10 @@ No bugs so far.
 Technologies Used In This Project:
 
     Java.
-    Intellij idea 2019.
+    Intellij idea 2021.
 
 License
 
 Copyright (c) Joshua Musau
 
-© 2019 GitHub
+© 2021 GitHub
