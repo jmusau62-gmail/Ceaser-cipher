@@ -1,12 +1,10 @@
 public class Ceasar  {
     private String plainWord;
     private int shift;
-
     public Ceasar(String plainWord, int shift){
         this.plainWord = plainWord;
         this.shift = shift;
     }
-
     public String getPlainWord(){
         return plainWord;
     }
@@ -82,6 +80,5 @@ public class Ceasar  {
         }
         return cipherText;
     }
-
 }
 
